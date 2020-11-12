@@ -1,4 +1,4 @@
-module golang-redis
+module golang-mongodb
 
 go 1.14
 

@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6cd9b9f4-89ed-41dc-9887-7091eef23310" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/golang-redis.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/golang-mongodb.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/main_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/user_controller.go" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/user_controller.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/router.go" beforeDir="false" afterPath="$PROJECT_DIR$/router.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utilities/typecasting.go" beforeDir="false" afterPath="$PROJECT_DIR$/utilities/typecasting.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +51,7 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RecentsManager">
@@ -55,9 +61,9 @@
       <recent name="C:\Users\jauharibill\go\src\golang-redis\controllers" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.TestStore in golang-redis">
+  <component name="RunManager" selected="Go Test.go test golang-redis">
     <configuration name="go build golang-redis" type="GoApplicationRunConfiguration" factoryName="Go Application" nameIsGenerated="true">
-      <module name="golang-redis" />
+      <module name="golang-mongodb" />
       <working_directory value="$PROJECT_DIR$" />
       <go_parameters value="-i" />
       <EXTENSION ID="net.ashald.envfile">
@@ -76,19 +82,8 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestStore in golang-redis" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="golang-redis" />
-      <working_directory value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="golang-redis" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <pattern value="^\QTestStore\E$" />
-      <method v="2" />
-    </configuration>
     <configuration name="go test golang-redis" type="GoTestRunConfiguration" factoryName="Go Test" nameIsGenerated="true">
-      <module name="golang-redis" />
+      <module name="golang-mongodb" />
       <working_directory value="$PROJECT_DIR$" />
       <go_parameters value="-i" />
       <EXTENSION ID="net.ashald.envfile">
@@ -111,13 +106,7 @@
     <list>
       <item itemvalue="Go Build.go build golang-redis" />
       <item itemvalue="Go Test.go test golang-redis" />
-      <item itemvalue="Go Test.TestStore in golang-redis" />
     </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Go Test.TestStore in golang-redis" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,34 +132,34 @@
     <integration-enabled>true</integration-enabled>
   </component>
   <component name="WindowStateProjectService">
-    <state x="414" y="175" width="1092" height="738" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605018122755">
+    <state x="414" y="175" width="1092" height="738" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605139617131">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="414" y="175" width="1092" height="738" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605018122755" />
+    <state x="414" y="175" width="1092" height="738" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605139617131" />
     <state x="92" y="92" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1605018189197">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605018189197" />
-    <state x="585" y="88" key="CommitChangelistDialog2" timestamp="1605139253854">
+    <state x="585" y="88" key="CommitChangelistDialog2" timestamp="1605139459291">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="585" y="88" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1605139253854" />
-    <state width="1877" height="292" key="GridCell.Tab.0.bottom" timestamp="1605139430999">
+    <state x="585" y="88" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1605139459291" />
+    <state width="1877" height="292" key="GridCell.Tab.0.bottom" timestamp="1605139622568">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="292" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605139430999" />
-    <state width="1877" height="292" key="GridCell.Tab.0.center" timestamp="1605139430999">
+    <state width="1877" height="292" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605139622568" />
+    <state width="1877" height="292" key="GridCell.Tab.0.center" timestamp="1605139622567">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="292" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605139430999" />
-    <state width="1877" height="292" key="GridCell.Tab.0.left" timestamp="1605139430998">
+    <state width="1877" height="292" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605139622567" />
+    <state width="1877" height="292" key="GridCell.Tab.0.left" timestamp="1605139622567">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="292" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605139430998" />
-    <state width="1877" height="292" key="GridCell.Tab.0.right" timestamp="1605139430999">
+    <state width="1877" height="292" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605139622567" />
+    <state width="1877" height="292" key="GridCell.Tab.0.right" timestamp="1605139622568">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="292" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605139430999" />
+    <state width="1877" height="292" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605139622568" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1604848954350">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -187,10 +176,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604848954350" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1605139260356">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1605139467948">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605139260356" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605139467948" />
     <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604833084356">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

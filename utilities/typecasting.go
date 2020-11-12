@@ -1,10 +1,8 @@
 package utilities
 
 import (
-	_ "github.com/stretchr/testify/assert"
 	"github.com/vmihailenco/treemux"
 	"io"
-	_ "net/http"
 	"net/http/httptest"
 	"strconv"
 )

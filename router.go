@@ -2,7 +2,7 @@ package main
 
 import (
 	"github.com/vmihailenco/treemux"
-	"golang-redis/controllers"
+	"golang-mongodb/controllers"
 )
 
 func Router() *treemux.TreeMux {

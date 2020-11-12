@@ -7,9 +7,9 @@ import (
 	"github.com/beinan/fastid"
 	"github.com/go-redis/redis/v8"
 	"github.com/vmihailenco/treemux"
-	"golang-redis/models"
-	"golang-redis/presenter"
-	"golang-redis/utilities"
+	"golang-mongodb/models"
+	"golang-mongodb/presenter"
+	"golang-mongodb/utilities"
 	"net/http"
 )
 
