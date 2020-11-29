@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"github.com/beinan/fastid"
 	"github.com/stretchr/testify/assert"
-	"golang-redis/controllers"
-	"golang-redis/models"
-	"golang-redis/utilities"
+	"golang-mongodb/controllers"
+	"golang-mongodb/models"
+	"golang-mongodb/utilities"
 	"net/http"
 	"testing"
 )
